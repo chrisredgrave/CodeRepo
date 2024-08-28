@@ -1,0 +1,450 @@
+Date: Wed, 28 Aug 2024 11:17:45 +0000 (UTC)
+Message-ID: <1395218681.17.1724843865001@099b899d1ff2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_1600477370.1724843865001"
+
+------=_Part_16_1600477370.1724843865001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>&lt;TicketNo&gt; - Entry Gate - YYYY-MM-DD</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>&lt;TicketNo&gt; - Entry Gate - YYYY-MM-DD</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"4d8f19e0-20e5-4cf6-be6e-=
+3f50b4b720e7" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 351.0px;">
+<col style=3D"width: 1018.0px;">
+<col style=3D"width: 143.0px;">
+<col style=3D"width: 288.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Activity</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Completed</p></th>
+<th class=3D"confluenceTh">
+<p>Documentation/Evidence</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Ensure Dependent Tables Exist</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Tables involved in the RPD are available, have the correct columns and a=
+re generally fit for purpose.&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"19"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Design Review Done</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>User Story has definitions for Presentation Layer names and descriptions=
+ of new fields</p></li>
+<li>
+<p>Document the objects in the RPD that will change. E.g. New Physical Tabl=
+e/Alias, Logical Table Sources, Presentation Objects or Initialization Bloc=
+ks</p></li>
+<li>
+<p>Lineage Documentation: (At Least) Place Holders added for new presentati=
+on layer objects.&nbsp;</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"20"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p>
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Understand UI Requirements</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>How does this development fit into the wider OBIEE Model, what are my ex=
+pected interaction points :</p></li>
+<li>
+<p>What are my predicted Drill Down/Across patterns (Hierarchies)</p></li>
+<li>
+<p>Am I making as much use as possible of conformed dimensions</p></li>
+<li>
+<p>Can what I'm building interact with other model artefacts to enrich the =
+user experience</p></li>
+<li>
+<p>What cross-fact / cross-subject area expectations can I predict and impl=
+ement now?</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"21"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Subject Area Design</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Is my SA Design Consistent with our presentation standards, have I devia=
+ted from the app</p></li>
+<li>
+<p>Have I identified any back-fill requirements for common artefacts in oth=
+er SA's</p></li>
+<li>
+<p>What Default formatting should the user expect (Numeric, Double, Precisi=
+on) - Are my RPD data types configured appropriately, should I override the=
+ physical layer datatype to achieve this</p></li>
+<li>
+<p>What security requirements are there for this development (Restricted ac=
+cess)</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"22"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Canned Reports</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Does the webcat folder structure exist to support the release of this de=
+velopment</p></li>
+<li>
+<p>Is the security structure in place for the webcat</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"23"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Understand Performance Requirements</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Get sample reports and rough expectations in performance</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"24"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Security Design</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>What existing security design(s) will be effected by this story, will us=
+ers be granted access to new data? Is any of that data deemed sensitive?</p=
+></li>
+<li>
+<p>What new subject area security is planned, which security role will the =
+subject area be granted to?</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"25"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Production Impact</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Have any proposed changes to the RPD , Webcat or Security been impact as=
+sessed agaist Production? e.g Which reports have been built against the col=
+umn im about to rename etc.</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"26"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Get Sign Off from Architects</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Present the proposed solution to MI Architects and get sign off to build=
+:</p></li>
+<li>
+<p>Highlight existing patterns planned to be used (Any New Physical Models =
+or BMM Objects Required)</p></li>
+<li>
+<p>Raise any concerns and challenges. Highlight the need for new patterns o=
+r amendment to existing patterns</p></li>
+<li>
+<p>Walkthrough RPD changes required (with Admin Tool open)</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3829923924">
+<li data-inline-task-id=3D"27"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_16_1600477370.1724843865001--

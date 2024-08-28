@@ -1,0 +1,688 @@
+Date: Wed, 28 Aug 2024 11:19:48 +0000 (UTC)
+Message-ID: <1584670034.27.1724843988666@c48fdb2f1055>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_673231234.1724843988666"
+
+------=_Part_26_673231234.1724843988666
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Analytics Training - Oracle Analytics Bootcamp Agenda (4 Days)</=
+title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Analytics Training - Oracle Analytics Bootcamp Agenda (4 Days)</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-OA=
+MetadataRepositoryRPD(2days)">
+<style>[data-colorid=3Dv5wiozx51z]{color:#ff5630} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dv5wiozx51z]{color:#cf2600}[data-colorid=3Dp1spq2tif9]{c=
+olor:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dp1spq2tif9]{colo=
+r:#cf2600}[data-colorid=3Dc02g8ffip2]{color:#ff5630} html[data-color-mode=
+=3Ddark] [data-colorid=3Dc02g8ffip2]{color:#cf2600}[data-colorid=3Du5oeovcz=
+ka]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Du5oeovczka]=
+{color:#cf2600}[data-colorid=3Do585x0x0ld]{color:#ff5630} html[data-color-m=
+ode=3Ddark] [data-colorid=3Do585x0x0ld]{color:#cf2600}[data-colorid=3Dxntlb=
+7wtqj]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dxntlb7wt=
+qj]{color:#cf2600}[data-colorid=3Dd2arycbz7q]{color:#ff5630} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dd2arycbz7q]{color:#cf2600}[data-colorid=3Dzx=
+lk7tlfvs]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dzxlk7=
+tlfvs]{color:#cf2600}[data-colorid=3Dcsy5f1d143]{color:#ff5630} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dcsy5f1d143]{color:#cf2600}[data-colorid=
+=3Dobcf6syhr5]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3D=
+obcf6syhr5]{color:#cf2600}[data-colorid=3Dbep42pslyi]{color:#ff5630} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dbep42pslyi]{color:#cf2600}[data-colo=
+rid=3Dj8n8vipbzv]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=
+=3Dj8n8vipbzv]{color:#cf2600}[data-colorid=3Dpidfy95oiw]{color:#ff5630} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dpidfy95oiw]{color:#cf2600}[data-c=
+olorid=3Dnm6cp70tn9]{color:#ff5630} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dnm6cp70tn9]{color:#cf2600}[data-colorid=3Drzyas2xaly]{color:#ff5630} =
+html[data-color-mode=3Ddark] [data-colorid=3Drzyas2xaly]{color:#cf2600}[dat=
+a-colorid=3Ddxgy6xnon7]{color:#ff5630} html[data-color-mode=3Ddark] [data-c=
+olorid=3Ddxgy6xnon7]{color:#cf2600}[data-colorid=3Dlcsltclouw]{color:#ff563=
+0} html[data-color-mode=3Ddark] [data-colorid=3Dlcsltclouw]{color:#cf2600}[=
+data-colorid=3Dr07xw7ppka]{color:#ff5630} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dr07xw7ppka]{color:#cf2600}[data-colorid=3Dyztbw8ufq4]{color:#ff=
+5630} html[data-color-mode=3Ddark] [data-colorid=3Dyztbw8ufq4]{color:#cf260=
+0}[data-colorid=3Ddmx275mli2]{color:#ff5630} html[data-color-mode=3Ddark] [=
+data-colorid=3Ddmx275mli2]{color:#cf2600}[data-colorid=3Dezb8ej5ctr]{color:=
+#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dezb8ej5ctr]{color:#cf=
+2600}[data-colorid=3Dnbq9kz81go]{color:#ff5630} html[data-color-mode=3Ddark=
+] [data-colorid=3Dnbq9kz81go]{color:#cf2600}[data-colorid=3Dx9qsjzvgh1]{col=
+or:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dx9qsjzvgh1]{color:=
+#cf2600}[data-colorid=3Dsw8otg8ohl]{color:#ff5630} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dsw8otg8ohl]{color:#cf2600}[data-colorid=3Dg4lxnp5s82]{=
+color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dg4lxnp5s82]{col=
+or:#cf2600}[data-colorid=3Dgrqfqylrea]{color:#ff5630} html[data-color-mode=
+=3Ddark] [data-colorid=3Dgrqfqylrea]{color:#cf2600}[data-colorid=3Dyj7p17wq=
+ra]{color:#ff5630} html[data-color-mode=3Ddark] [data-colorid=3Dyj7p17wqra]=
+{color:#cf2600}</style><strong>OA Metadata Repository RPD (2 days)</strong>=
+</h1>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseOver=
+view"><strong>Course Overview</strong></h2>
+<p>The Metadata Repository (RPD) course provides insightful and practical D=
+ata Modelling training and also equips learners with best practices for how=
+ to create a data model from a Data Lake/Data Warehouse source.</p>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Agenda">Ag=
+enda</h2>
+<h3 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Day1">Day =
+1</h3>
+<p>Dive straight into building your RPD from day 1, in this section of the =
+BootCamp you will learn:</p>
+<ul>
+<li>
+<p>Introduction</p>
+<ul>
+<li>
+<p>What is the RPD?</p></li>
+<li>
+<p>How does the RPD fit into the Oracle Analytics ecosystem?</p></li>
+<li>
+<p>What are we building in the course, and why?</p></li>
+</ul></li>
+<li>
+<p>Building our first RPD</p>
+<ul>
+<li>
+<p>Connect to and Model our Data Warehouse (DWH)</p>
+<ul>
+<li>
+<p>Connect to the DWH</p></li>
+<li>
+<p>Import DWH facts and dimensions</p></li>
+<li>
+<p>Create relationships between facts and dimensions</p></li>
+</ul></li>
+<li>
+<p>Abstract the Database into a business-friendly structure</p>
+<ul>
+<li>
+<p>Creating a Model that the business will understand</p></li>
+<li>
+<p>Creating logical representations of DWH Tables</p></li>
+<li>
+<p>Creating logical relationships between entities</p></li>
+<li>
+<p>Creating business calculations</p></li>
+<li>
+<p>Defining basic hierarchies</p></li>
+</ul></li>
+<li>
+<p>Present our model to the end users</p>
+<ul>
+<li>
+<p>Creating Subject Areas</p></li>
+<li>
+<p>Exposing our DWH attributes, measures and calculations</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p>Advanced Features</p>
+<ul>
+<li>
+<p>Ragged and Skip-Level Hierarchies</p></li>
+<li>
+<p>Parent-Child Hierarchies</p></li>
+<li>
+<p>Horizontal and Vertical Federation</p></li>
+</ul></li>
+<li>
+<p>Modelling against a source system or ODS</p>
+<ul>
+<li>
+<p>Federation</p></li>
+<li>
+<p>Fragmentation</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Day2">Day =
+2</h3>
+<ul>
+<li>
+<p>Metadata Repository Variables</p>
+<ul>
+<li>
+<p>What are the different types of variables?</p></li>
+<li>
+<p>How do we populate the variables?</p></li>
+<li>
+<p>Using variables for Row-Level Security</p></li>
+</ul></li>
+<li>
+<p>What does the Software Development Lifecycle look like?</p>
+<ul>
+<li>
+<p>Online vs Offline Development</p></li>
+<li>
+<p>Merging and Patching Metadata Repositories</p></li>
+<li>
+<p>Multi-User Development</p></li>
+<li>
+<p>Version Control and Release Management</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Labs">Labs=
+</h2>
+<ul>
+<li>
+<p>01 - Creating a Basic Repository</p></li>
+<li>
+<p>02 - Creating an Advanced Repository</p></li>
+<li>
+<p>03 - Server Variables</p></li>
+<li>
+<p>04 - Modelling over 3NF Sources</p></li>
+<li>
+<p>05 - Repository Merging and Patching</p></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseDura=
+tion">Course Duration</h3>
+<p>This course is delivered over 2 days.</p>
+<hr>
+<h1 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-OAAnalytic=
+sandDashboards(Classic)(1day)"><strong>OA Analytics and Dashboards (Classic=
+) (1 day)</strong></h1>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseOver=
+view.1"><strong>Course Overview</strong></h2>
+<p>Analytics and Dashboards (Classic) is a powerful Front End tool for Orac=
+le Analytics and this training course provides both informative presentatio=
+ns and expert demonstrations. Looking at how to create basic analysis and d=
+esign interactive dashboards.</p>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Agenda.1">=
+Agenda</h2>
+<p><strong>Day 1</strong></p>
+<ul>
+<li>
+<p>Introduction</p>
+<ul>
+<li>
+<p>Where does Analytics (Classic) fit in?</p></li>
+<li>
+<p>Overview of features and key processes</p></li>
+</ul></li>
+<li>
+<p>Creating our first analyses</p>
+<ul>
+<li>
+<p>Creating calculations</p></li>
+<li>
+<p>Adding filters</p></li>
+<li>
+<p>Changing the look and feel of the analysis</p></li>
+<li>
+<p>Creating visualisations on our analysis</p>
+<ul>
+<li>
+<p><span data-colorid=3D"yztbw8ufq4">Tables/Pivots</span></p></li>
+<li>
+<p><span data-colorid=3D"u5oeovczka">Bar Charts/Line Graphs/Pareto</span></=
+p></li>
+<li>
+<p><span data-colorid=3D"nm6cp70tn9">Stacked Charts</span></p></li>
+<li>
+<p><span data-colorid=3D"yj7p17wqra">Performance Tiles</span></p></li>
+<li>
+<p><span data-colorid=3D"ezb8ej5ctr">Heatmaps</span></p></li>
+</ul></li>
+</ul></li>
+<li>
+<p>Choosing the Right Visualization</p>
+<ul>
+<li>
+<p>Data Visualization Concepts and Principles</p></li>
+<li>
+<p>Graphs and Colour Usage</p></li>
+</ul></li>
+<li>
+<p>Additional Views and Features</p>
+<ul>
+<li>
+<p>How to use screen real estate effectively (View and Column Selectors)</p=
+></li>
+<li>
+<p>Master-Detail Linking</p></li>
+<li>
+<p>Conditional Formatting</p></li>
+</ul></li>
+<li>
+<p>Advanced Analytics</p>
+<ul>
+<li>
+<p>Time Series Calculations</p></li>
+<li>
+<p>Filters based on another analysis</p></li>
+<li>
+<p>Combining Subject Areas</p></li>
+</ul></li>
+<li>
+<p>Creating Dashboards</p>
+<ul>
+<li>
+<p>Adding Reports to Dashboards</p></li>
+<li>
+<p>Prompts</p></li>
+<li>
+<p>Using variables in reports and dashboards</p></li>
+<li>
+<p>Interactions between Reports</p></li>
+<li>
+<p>Conditions</p></li>
+</ul></li>
+<li>
+<p>Actionable Intelligence</p>
+<ul>
+<li>
+<p>Drilling from one report to another</p></li>
+<li>
+<p>Scheduling and delivering reports</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Labs.1">La=
+bs</h2>
+<ul>
+<li>
+<p>01 Creating a Basic Analysis</p></li>
+<li>
+<p>02 Choosing the Right Visualization</p></li>
+<li>
+<p>03 Making Analysis More Interactive</p></li>
+<li>
+<p>04 Creating a Basic Dashboard</p></li>
+<li>
+<p>05 Making Dashboards More Interactive</p></li>
+<li>
+<p>06 Creating and Scheduling an Agent&nbsp;</p></li>
+</ul>
+<h3 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseDura=
+tion.1">Course Duration</h3>
+<p>This course is generally delivered in 1 day.</p>
+<hr>
+<h1 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-OADataVisu=
+alization(1Day)"><strong>OA Data Visualization (1 Day)</strong></h1>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseOver=
+view.2"><strong>Course Overview</strong></h2>
+<p>Data Visualization is a great Oracle Analytics self-service reporting to=
+ol for data exploration and visualisations.</p>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Agenda.2">=
+Agenda</h2>
+<p><strong>Day 1</strong></p>
+<ul>
+<li>
+<p>Introduction</p>
+<ul>
+<li>
+<p>Where does DV fit in?</p></li>
+<li>
+<p>Overview of Features and Key Processes</p></li>
+</ul></li>
+<li>
+<p>Data Acquisition</p>
+<ul>
+<li>
+<p>Connections</p></li>
+<li>
+<p>Datasets</p></li>
+</ul></li>
+<li>
+<p>Data Preparation</p>
+<ul>
+<li>
+<p>Data Profiles and Semantic Recommendations</p></li>
+<li>
+<p>Preparation Script</p></li>
+</ul></li>
+<li>
+<p>Data Exploration and Visualization</p>
+<ul>
+<li>
+<p>Visualize</p>
+<ul>
+<li>
+<p>Explore Data</p></li>
+<li>
+<p>Develop Visualisations</p>
+<ul>
+<li>
+<p>Filtering</p></li>
+<li>
+<p>Visualisation Types</p>
+<ul>
+<li>
+<p><span data-colorid=3D"v5wiozx51z">Table, Pivot</span></p></li>
+<li>
+<p><span data-colorid=3D"bep42pslyi">Bar/Line/Stacked/100%</span></p></li>
+<li>
+<p><span data-colorid=3D"rzyas2xaly">Trellis</span></p></li>
+<li>
+<p><span data-colorid=3D"c02g8ffip2">Treemap</span></p></li>
+<li>
+<p><span data-colorid=3D"g4lxnp5s82">Performance Tiles</span></p></li>
+<li>
+<p><span data-colorid=3D"r07xw7ppka">Maps</span></p></li>
+</ul></li>
+<li>
+<p>Visualisation Properties</p>
+<ul>
+<li>
+<p><span data-colorid=3D"dxgy6xnon7">Titles, Legends</span></p></li>
+<li>
+<p><span data-colorid=3D"csy5f1d143">Axis Properties</span></p></li>
+<li>
+<p><span data-colorid=3D"xntlb7wtqj">Measures</span></p></li>
+<li>
+<p><span data-colorid=3D"p1spq2tif9">Sorting</span></p></li>
+<li>
+<p><span data-colorid=3D"lcsltclouw">Adding Statistics (Trend, Outliers)</s=
+pan></p></li>
+<li>
+<p><span data-colorid=3D"j8n8vipbzv">Data Formats</span></p></li>
+</ul></li>
+<li>
+<p>Interactions</p></li>
+<li>
+<p>Managing the Canvas</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p>Present</p>
+<ul>
+<li>
+<p>Annotate Visualisations</p></li>
+<li>
+<p>Build Storyboards</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p>Data Flows</p>
+<ul>
+<li>
+<p>Adding Data Sources</p>
+<p>Transformations</p>
+<ul>
+<li>
+<p><span data-colorid=3D"grqfqylrea">Join</span></p></li>
+<li>
+<p><span data-colorid=3D"pidfy95oiw">Union</span></p></li>
+<li>
+<p><span data-colorid=3D"dmx275mli2">Filter</span></p></li>
+<li>
+<p><span data-colorid=3D"sw8otg8ohl">Aggregate</span></p></li>
+<li>
+<p><span data-colorid=3D"x9qsjzvgh1">Merge/Split Columns</span></p></li>
+<li>
+<p><span data-colorid=3D"nbq9kz81go">Binning</span></p></li>
+<li>
+<p><span data-colorid=3D"d2arycbz7q">Branching</span></p></li>
+<li>
+<p><span data-colorid=3D"o585x0x0ld">Time-Series Forcast</span></p></li>
+<li>
+<p><span data-colorid=3D"zxlk7tlfvs">Sentiment Analysis</span></p></li>
+<li>
+<p><span data-colorid=3D"obcf6syhr5">Machine Learning Training</span></p></=
+li>
+</ul></li>
+<li>
+<p>Scheduling Data Flows</p></li>
+</ul></li>
+<li>
+<p>Machine Learning</p>
+<ul>
+<li>
+<p>Concepts and Principals</p></li>
+<li>
+<p>Advanced Analytics Functions</p></li>
+<li>
+<p>Explain Attributes and Measures</p></li>
+<li>
+<p>Machine Learning Models</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-Labs.2">La=
+bs</h2>
+<ul>
+<li>
+<p>01 - Creating a Dataset from a File</p></li>
+<li>
+<p>02 - Creating a Dataset with Multiple Tables</p></li>
+<li>
+<p>03 - Creating a Workbook</p></li>
+<li>
+<p>04 - Blending Data in Workbooks</p></li>
+<li>
+<p>05 - Presenting Data in Workbooks</p></li>
+<li>
+<p>06 - Creating a Data Flow</p></li>
+<li>
+<p>07 - Augmented Analytics</p></li>
+<li>
+<p>08 - Creating a Machine Learning Model</p></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id=3D"AnalyticsTraining-OracleAnalyticsBootcampAgenda(4Days)-CourseDura=
+tion.2"><strong>Course Duration</strong></h3>
+<p>This course is generally delivered in 1 day.</p>
+    </div>
+</body>
+</html>
+------=_Part_26_673231234.1724843988666--

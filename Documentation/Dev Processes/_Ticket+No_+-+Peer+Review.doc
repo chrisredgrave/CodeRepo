@@ -1,0 +1,628 @@
+Date: Wed, 28 Aug 2024 11:18:06 +0000 (UTC)
+Message-ID: <649999786.23.1724843886090@88769e745f3e>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_22_1233308047.1724843886089"
+
+------=_Part_22_1233308047.1724843886089
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>&lt;Ticket No&gt; - Peer Review</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>&lt;Ticket No&gt; - Peer Review</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"8f538f57-4b4e-4750-885c-922=
+13615d0a0" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 330.0px;">
+<col style=3D"width: 429.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Reviewed by</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Review Date</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Review Status</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Review Summary</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong>Instructions for use:&nbsp;</strong>Complete the below table by =
+filling in all Review Status cells with&nbsp;<img class=3D"emoticon emotico=
+n-tick" data-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":che=
+ck_mark:" data-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc023=
+33c1d7cce7eea7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" dat=
+a-emoticon-name=3D"tick" alt=3D"(tick)">&nbsp;for satisfactory and&nbsp;<im=
+g class=3D"emoticon emoticon-cross" data-emoji-id=3D"atlassian-cross_mark" =
+data-emoji-shortname=3D":cross_mark:" data-emoji-fallback=3D":cross_mark:" =
+src=3D"195bc9b67b51100a389cb86116a420ee2bb0b57396832baeaaac5e75929c21c4" wi=
+dth=3D"16" height=3D"16" data-emoticon-name=3D"cross" alt=3D"(error)">&nbsp=
+;for unsatisfactory outcome or put in 'N/A' if that particular review is no=
+t applicable to the interface being reviewed.&nbsp;In case of a failed revi=
+ew, fill in the Additional Reviewer Remarks cell, describing what is missin=
+g or incorrect.</p>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"0edb37a9-c0c1-4611-a790-=
+e06a0733dafd" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 145.0px;">
+<col style=3D"width: 1380.0px;">
+<col style=3D"width: 168.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p style=3D"text-align: center;">Review Result</p></th>
+<th class=3D"confluenceTh">
+<p>Domain</p></th>
+<th class=3D"confluenceTh">
+<p>Review Description</p></th>
+<th class=3D"confluenceTh">
+<p>Additional Reviewer Remarks</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>RPD - General</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>RPD Warnings - have you introduced any warnings? Only expected one shoul=
+d be there e.g. database defaults</p></li>
+<li>
+<p>No RPD Errors</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>RPD - Physical Layer</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>All tables are aliased</p></li>
+<li>
+<p>Joins are correct (dk to dk for scd1 and dk+dates for scd2)</p></li>
+<li>
+<p>Display folder for each data model (e.g. vehicle stock)</p></li>
+<li>
+<p>naming convention used correctly on aliases</p></li>
+<li>
+<p>no views in Physical model unless justified</p></li>
+<li>
+<p>Physical table cacheable</p></li>
+<li>
+<p>All columns that are DATE in the database have been reverted to DATE in =
+the RPD</p></li>
+<li>
+<p>All columns that are INT in the database have been reverted to INT in th=
+e RPD</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>RPD - BMM Layer</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Single BMM - users need to be able to join SA together</p></li>
+<li>
+<p>naming conventions adhered to</p></li>
+<li>
+<p>Level based dimension for each dimension table</p></li>
+<li>
+<p>Calendar hierarchies are consistent with each other</p></li>
+<li>
+<p>Levels Set correctly in LTS</p></li>
+<li>
+<p>No snowflaking in BMM layer</p></li>
+<li>
+<p>column names match spreadsheet</p></li>
+<li>
+<p>no unjustified calculations (aggregations are fine)</p>
+<ul>
+<li>
+<p>any calculations are pushed to the physical layer</p></li>
+</ul></li>
+<li>
+<p>Aggregate facts are logical table sources inside logical tables rather t=
+han their own table</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>RPD - Presentation Layer</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>No columns are renamed in Presentation Layer</p></li>
+<li>
+<p>Descriptions of presentation columns match spreadsheet</p></li>
+<li>
+<p>Conformed Dimensions are at the top of the list of dims</p></li>
+<li>
+<p>Fact table is renamed to 'Measures'</p></li>
+<li>
+<p>A conformed Dimension will exactly the same look and feel across the SA'=
+s that it is used in</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Security</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>All subject areas are secured to only their own role in the RPD</p></li>
+<li>
+<p>Correct icons are in place in RPD to denote secured attributes (e.g padl=
+ock)</p></li>
+<li>
+<p>Security mapping sheet is up to date and SA is mapped for appropriate ac=
+cess (<a rel=3D"nofollow">Security Implementation</a>)</p></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Unit Testing</p></td>
+<td class=3D"confluenceTd">
+<p>Unit tests are completed and in status Green.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Unit Testing</p></td>
+<td class=3D"confluenceTd">
+<p>Unit test results must contain not only the test outcome status (success=
+ or failure) but also record the test result, like the actual numbers of re=
+cords for volume comparison. Screenshots should be used to show the test ou=
+tcome where appropriate.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Unit Testing</p></td>
+<td class=3D"confluenceTd">
+<p>Sample Reports have been created to test each of the dimensions and fact=
+s in the model. Screenshots/report downloads supplied in unit testing</p></=
+td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Documentation</p></td>
+<td class=3D"confluenceTd">
+<p>The Technical Specification Document (LLD) should provide a clear descri=
+ption along with any dependencies and general design decisions.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"></p>
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Documentation</p></td>
+<td class=3D"confluenceTd">
+<p>Compare LLD document to the implementation. Pay special attention to the=
+ calculations.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Documentation</p></td>
+<td class=3D"confluenceTd">
+<p>Latest version of the LLD/Unit Test Documentation is in Confluence.</p><=
+/td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>GIT</p></td>
+<td class=3D"confluenceTd">
+<p>OBIEE RPD has been exported to GIT.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p style=3D"text-align: center;"><img class=3D"emoticon emoticon-tick" data=
+-emoji-id=3D"atlassian-check_mark" data-emoji-shortname=3D":check_mark:" da=
+ta-emoji-fallback=3D":check_mark:" src=3D"a21d08d386836ab1fc02333c1d7cce7ee=
+a7b473698514eb514a7fad568bdbbad" width=3D"16" height=3D"16" data-emoticon-n=
+ame=3D"tick" alt=3D"(tick)"></p></td>
+<td class=3D"confluenceTd">
+<p>Environment</p></td>
+<td class=3D"confluenceTd">
+<p>OBIEE RPD has been uploaded to the Development Server</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_22_1233308047.1724843886089
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/a21d08d386836ab1fc02333c1d7cce7eea7b473698514eb514a7fad568bdbbad
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAArRJREFUOBGVU89LVFEU/u69b37p6MykZpoY
+I0VZEgm6CGoxi0L/gDCmhQtBGGzTJiiMDCJbtKtW0SL6vShaRLXILLCFVEg/FkWlCFJGjT9mxvS9
+effezr0zDrjswp2577z3nfOd736HwayREU5b2fP5o10QfACMpaB10sYYm6HzOKS6juF7b22sjGEb
+wBfSVxAQQ7SBogR82mY59LweK8qrOH3nuI1TEmYP5mf02FNEQz0orBkmBinoJdd0iDOu6oUjZ/2i
+KEZDHAX3GU7d7qVXoNS0TOWacJrALhiccpzwGgkmsOSvsoWlr0KFYgj5ypPR8C4cbG/A2McnDKbn
+UOAN0VUEZoSpsEowjkU3j77mDvR39eDcq7uYXPmtIzyoVx3O4Ra7uRWM+iOUNGADauGGBJDgRNDN
+YvhwP3r3HUBTdZx08ViEc2k1IbE5IVNGMOpVxGzFHOYKP7DbCWM6N4czXWl0tO7Ai0+TeDQ9jrZI
+AgtKCisyYR1CJo3atYzzZa+AgW3daE004uy7B0AwikzqCDzp48TYDaCqGVnlG3K8fEPJEleKbCba
+ucIs+jpP4tDe/fD8Ippr6tAUr8eticf4MD+F7Zva8U26JkFlMVxMf4YQO2ukVnnp8c7qOjwfGEVt
+VZSKSORWC2i8PIiYCGOFYKZZaleRNzik/MLpadwIktdKbqW+pxa+I3P/EpTWCAeCuPbyIbC2iLhw
+4JfApnpJRMIKpPb8ItsOMqVZTku0hRNsYv49eM5FNreIzOubqK9qwE9VdqW5aNirZiRkpnTnJSMN
+MTISEQy28ACb+/sH8JZRF0siq0tjQjDD30M0HEJ+zVq6Ypp1K1MSRSXkFu6ICN3MjPQM5Yq9CbzB
+ymYKufnCepuyaiNOJBiY53odbIbJxuy/qVyeA4MtMSiPpk30n+P8D1M+Ld4+I3biAAAAAElFTkSu
+QmCC
+------=_Part_22_1233308047.1724843886089
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/195bc9b67b51100a389cb86116a420ee2bb0b57396832baeaaac5e75929c21c4
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAfZJREFUOBGtU01rFEEQfVUzO/uJkixiCChE
+DyrmmImCCu5Nz/6EHOPP0aM/wbPeVlBB3RxX9GL2IMSIrCGy2d2ZTXdbr8dArkYbeqiprlfV9V61
+wFYAVABP+8tma0OhWwihZ/41+uxsBJG+h3929cN0h74TjJwYdO7mnSeZhu2mpZv7gDKmBDIFGuab
+RZ88vTKYPD6VhKaVyNsvlmvyYFx6j6Tp4BcJcGxQrtRDaw5ulnQz1Z+L8HJtcPSQJzGAlSuwK5DU
+BdNxDWnLOqlbhG3a9NnZuHQFY4lhAmHPdZFB6YIXC/BHB6Kr6/Afh5DV84xB2DuE3jTf3hDaXgrB
+FSFLRIsQ8pSENe0eJRouWBWCLz1/i9nnT/ie344JLg7eoXn9Br4+uoPwbShodY+bWujCyVYajO05
+yWLPnZVYmeDOxi341/2YgPZk5311q8srRs00mZsOIaAnu3m7MJky+636NQ794BAXDHzu7v2Y4Neb
+V/hxrwfNrSW16/rCpBUiykhijDrjhwlG1LmSqh4JY8+szsrctOkjmVEVk7XCYJSKTVhDca2A6TzZ
+V7JNwtgzr82lf0jkmZEII9E11GsZ0P9nGY2/aoS7NWxzSJA0MkwPhIqQrLg4TJN9q7wU4OZlN0vq
+4wXiSMcEDDrrKP+fx3T6Rf7tc/4NQwEyiRpn0tAAAAAASUVORK5CYII=
+------=_Part_22_1233308047.1724843886089--

@@ -1,0 +1,389 @@
+Date: Wed, 28 Aug 2024 11:17:38 +0000 (UTC)
+Message-ID: <162550528.21.1724843858877@08076cc905f0>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_914562438.1724843858877"
+
+------=_Part_20_914562438.1724843858877
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>&lt;TicketNo&gt; - &lt;Story Desc&gt;</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>&lt;TicketNo&gt; - &lt;Story Desc&gt;</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-<TicketNo>-<StoryDesc>-UserStory">User Story</h2>
+<div class=3D"error">
+<span class=3D"error">Unable to render {include}</span> The included page c=
+ould not be found.
+</div>
+<h2 id=3D"id-<TicketNo>-<StoryDesc>-StoryAcceptance/Kick-Off">Story Accepta=
+nce / Kick-Off</h2>
+<p>Every story needs a "3-amigos" with at least Dev, QE and BA representati=
+on. This can be an informal desk meeting, slack call, or full-VC as needed.=
+ Please record participation below:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"610a7d5e-882a-4099-8af2-438=
+5505e0ac1" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 258.0px;">
+<col style=3D"width: 501.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Date / Format of Kick-Off</p></th>
+<td class=3D"confluenceTd">
+<p>//dd-mm-yyyy</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Format</p></th>
+<td class=3D"confluenceTd">
+<p>Desk / Call / Slack / VC</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Dev Representation</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>QE Representation</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>BA Representation</p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p>Checklist</p></th>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3830120489">
+<li data-inline-task-id=3D"11"><span class=3D"placeholder-inline-tasks">Sto=
+ry Understood and Accepted</span></li>
+<li data-inline-task-id=3D"12"><span class=3D"placeholder-inline-tasks">No =
+Upstream Dependencies</span></li>
+<li data-inline-task-id=3D"13"><span class=3D"placeholder-inline-tasks">Ent=
+ry and Exit Gate Pages Created</span></li>
+<li data-inline-task-id=3D"14"><span class=3D"placeholder-inline-tasks">Dev=
+/QA Discussion of Approach and Test Cases</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h2 id=3D"id-<TicketNo>-<StoryDesc>-ListofDocuments">List of Documents</h2>
+<ul class=3D"childpages-macro">
+<li><a href=3D"/wiki/spaces/AT/pages/3830546492/Ticket+No+-+Exit+Gate" data=
+-linked-resource-id=3D"3830546492" data-linked-resource-version=3D"1" data-=
+linked-resource-type=3D"page">&lt;Ticket No&gt; - Exit Gate</a>
+<ul class=3D"childpages-macro">
+<li><a href=3D"/wiki/spaces/AT/pages/3830054985/Ticket+No+-+Performance+Ana=
+lysis" data-linked-resource-id=3D"3830054985" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"page">&lt;Ticket No&gt; - Performance A=
+nalysis</a></li>
+<li><a href=3D"/wiki/spaces/AT/pages/3830120496/Ticket+No+-+Peer+Review" da=
+ta-linked-resource-id=3D"3830120496" data-linked-resource-version=3D"1" dat=
+a-linked-resource-type=3D"page">&lt;Ticket No&gt; - Peer Review</a></li>
+<li><a href=3D"/wiki/spaces/AT/pages/3829891121/Ticket+No+-+Unit+Testing" d=
+ata-linked-resource-id=3D"3829891121" data-linked-resource-version=3D"1" da=
+ta-linked-resource-type=3D"page">&lt;Ticket No&gt; - Unit Testing</a></li>
+</ul></li>
+<li><a href=3D"/wiki/spaces/AT/pages/3829923924/TicketNo+-+Entry+Gate+-+YYY=
+Y-MM-DD" data-linked-resource-id=3D"3829923924" data-linked-resource-versio=
+n=3D"1" data-linked-resource-type=3D"page">&lt;TicketNo&gt; - Entry Gate - =
+YYYY-MM-DD</a>
+<ul class=3D"childpages-macro">
+<li><a href=3D"/wiki/spaces/AT/pages/3830186028/Ticket+No+-+OAS+Proposed+Ch=
+anges" data-linked-resource-id=3D"3830186028" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"page">&lt;Ticket No&gt; - OAS Proposed =
+Changes</a></li>
+<li><a href=3D"/wiki/spaces/AT/pages/3829989759/Ticket+No+-+Sample+Reports"=
+ data-linked-resource-id=3D"3829989759" data-linked-resource-version=3D"1" =
+data-linked-resource-type=3D"page">&lt;Ticket No&gt; - Sample Reports</a></=
+li>
+</ul></li>
+</ul>
+<h2 id=3D"id-<TicketNo>-<StoryDesc>-ComponentsAffected(LLDsfordims/facts)">=
+Components Affected (LLDs for dims/facts)</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<h3 id=3D"id-<TicketNo>-<StoryDesc>-Instructions">Instructions</h3>
+<p>Please maintain a table of all DWH Objects updated in the table below by=
+ linking to the relevant LLD. All LLDs can be found as subpages on&nbsp;<a =
+rel=3D"nofollow">VRMMI: Access Layer</a>. Find or create the relevant page =
+here and page the URL of that page into this table.</p>
+<p><strong>Make sure the master LLD is updated and reviewed prior to busine=
+ss sign-off!</strong></p>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"wide" data-local-id=3D"8470ad79-7030-4701-87ce-0463a3=
+7a6fdc" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 323.0px;">
+<col style=3D"width: 364.0px;">
+<col style=3D"width: 225.0px;">
+<col style=3D"width: 48.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Link to Affected LLD</p></th>
+<th class=3D"confluenceTh">
+<p>Action</p></th>
+<th class=3D"confluenceTh">
+<p>Updated</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>CREATED/UPDATED/DELETED</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"3830120489">
+<li data-inline-task-id=3D"15"><span class=3D"placeholder-inline-tasks">&nb=
+sp;</span></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_20_914562438.1724843858877--

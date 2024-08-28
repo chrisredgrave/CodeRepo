@@ -1,0 +1,1017 @@
+Date: Wed, 28 Aug 2024 11:17:22 +0000 (UTC)
+Message-ID: <1835575580.1.1724843842993@e23a88fea161>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_106980737.1724843842975"
+
+------=_Part_0_106980737.1724843842975
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>OA Development Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>OA Development Standards</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"OADevelopmentStandards-Contents">Contents</h1>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1724843842890 {padding: 0px;}
+div.rbtoc1724843842890 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1724843842890 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1724843842890">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#OADevelopmentStandards-Contents">Contents</a></li>
+<li><a href=3D"#OADevelopmentStandards-Overview">Overview</a></li>
+<li><a href=3D"#OADevelopmentStandards-General">General</a></li>
+<li><a href=3D"#OADevelopmentStandards-RPD">RPD</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#OADevelopmentStandards-PhysicalLayer">Physical Layer</a></l=
+i>
+<li><a href=3D"#OADevelopmentStandards-BusinessModelLayer(BM)">Business Mod=
+el Layer (BM)</a></li>
+<li><a href=3D"#OADevelopmentStandards-PresentationLayer">Presentation Laye=
+r</a></li>
+</ul></li>
+<li><a href=3D"#OADevelopmentStandards-PresentationCatalog">Presentation Ca=
+talog</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#OADevelopmentStandards-Reports">Reports</a></li>
+<li><a href=3D"#OADevelopmentStandards-Dashboards">Dashboards</a></li>
+<li><a href=3D"#OADevelopmentStandards-Style">Style</a></li>
+<li><a href=3D"#OADevelopmentStandards-Graphs">Graphs</a></li>
+<li><a href=3D"#OADevelopmentStandards-Performance">Performance</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id=3D"OADevelopmentStandards-Overview"><strong>Overview</strong></h1>
+<p>The purpose of this document is to compile the developer standards used =
+throughout the development of OAS/OAC projects. These standards are designe=
+d to be a starting point and guideline for good development standards, this=
+ is not an exhaustive list.</p>
+<h1 id=3D"OADevelopmentStandards-General">General</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"c79c6278-ad59-4e9a-80a5-44fe2e36f9e8" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No Errors should be introduced during development</p></td>
+<td class=3D"confluenceTd">
+<p>Errors can result in failure in report execution or unexpected query gen=
+eration</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No Warnings should be introduced during development, with the exception =
+of expected warnings e.g. Changes to Database Features</p></td>
+<td class=3D"confluenceTd">
+<p>Warnings can result in unexpected query generation</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"OADevelopmentStandards-RPD">RPD</h1>
+<h2 id=3D"OADevelopmentStandards-PhysicalLayer">Physical Layer</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"1677a0ff-4ef7-4283-9ac4-f6b0efcbf2dc" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Create Aliases for all physical tables. These should all follow a naming=
+ standard e.g. "Dim_", "Fact_" or "Fact_Agg_"</p></td>
+<td class=3D"confluenceTd">
+<p>Aliases enable the use of =E2=80=9Croleplay=E2=80=9D tables (e.g. the Ca=
+lendar dimension). It also assists with the readability of the RPD and help=
+s when building development accelerators</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>When possible, configure your connection pools to use a "native driver" =
+to connect to your physical databases. For example, use OCI for connecting =
+to an Oracle database rather than ODBC</p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>This will help with query performance when using a native driver as oppo=
+sed to ODBC</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A seperate connection pool should be set up for variables and queries</p=
+></td>
+<td class=3D"confluenceTd">
+<p>Variables can =E2=80=9Chog=E2=80=9D connections and cause problems when =
+users are signing in to OAS/OAC.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h2 id=3D"OADevelopmentStandards-BusinessModelLayer(BM)">Business Model Lay=
+er (BM)</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"abd99698-89ab-45fb-974b-efff52963ef6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>All Logical Tables should be prefixed with either "Dim =E2=80=93 ", "Fac=
+t =E2=80=93 " or "Fact&nbsp;Att =E2=80=93"</p></td>
+<td class=3D"confluenceTd">
+<p>Assists with the readability of the RPD and helps when building developm=
+ent accelerators</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Non-business orientated columns should be introduced into the BM</p></td=
+>
+<td class=3D"confluenceTd">
+<p>End users should not be exposes to database-related objects.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Physical Primary Keys or Surrogate Keys, i.e. _sk &amp; _dk, &nbsp;shoul=
+d not be present on the Business Model layer (unless, for example, you have=
+ a Primary Key such as Order Id which will be displayed on reports)</p></td=
+>
+<td class=3D"confluenceTd">
+<p>End users should not be exposes to database-related objects.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>4</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Dimension Logical Tables must always have a Logical Key assigned. The Lo=
+gical Key should be something "business oriented" such as "Employee Login" =
+rather than "EMPLOYEE_PK"</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>5</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Dimension Logical Tables must only contain dimension attributes, they sh=
+ould never contain any measure columns (which have an Aggregate Rule)</p></=
+td>
+<td class=3D"confluenceTd">
+<p>This will cause a warning/error in the Admin Tool. All aggregation shoul=
+d be done on logical facts.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Fact Logical Tables should never have a Logical Key assigned</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>7</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every Logical Column within a Fact Logical Table must be a measure colum=
+n, and therefore have an Aggregation Rule assigned. Non-aggregatable fact v=
+alues should be held in a logical dimension based on the fact table</p></td=
+>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>8</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The Business Model should only consist of logical star-schemas, there sh=
+ould not be any snow-flaking</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>9</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every Dimension Logical Table should have a corresponding Dimension Hier=
+archy (with "Total" as a Grand Total level, and "Detail" at the lowest leve=
+l)</p></td>
+<td class=3D"confluenceTd">
+<p>This is to assist the bi server when selecting the most optimal LTS to u=
+se for a given query.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>10</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Each level of a Dimension Hierarchy should have its "Number of Elements"=
+ appropriately set (there is a utility that can do this automatically for y=
+ou</p></td>
+<td class=3D"confluenceTd">
+<p>This is to assist the bi server when selecting the most optimal LTS to u=
+se for a given query.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>11</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every Logical Table Source within every dimension and fact Logical Table=
+ should have its "Content Levels" appropriately set</p></td>
+<td class=3D"confluenceTd">
+<p>This is to assist the bi server when selecting the most optimal LTS to u=
+se for a given query.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>12</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Logical Table Sources should retain the name of the source alias where p=
+ossible</p></td>
+<td class=3D"confluenceTd">
+<p>This is to assist with readbility of the RPD and to help trace potential=
+ issues in user reports</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>13</strong></p></td>
+<td class=3D"confluenceTd">
+<p>For your Dimension Hierarchies, only enable the "Ragged" and "Skip Level=
+" options if your hierarchies genuinely contain Ragged and/or Skip Levels</=
+p></td>
+<td class=3D"confluenceTd">
+<p>These options cause the bi server to generate far more complex SQL than =
+may be necessary. Only use these options when they are necessary.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<h2 id=3D"OADevelopmentStandards-PresentationLayer">Presentation&nbsp;Layer=
+</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"f3f719df-444b-4d10-beb1-4be3264326c2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>When you have multiple Subject Areas, list the common dimensions in the =
+same order across all the Subject Areas</p></td>
+<td class=3D"confluenceTd">
+<p>This is to help end users understand that these are the same logical =E2=
+=80=9Cthing=E2=80=9D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ensure sub folders are nested within a parent/child hierarchy structure<=
+/p></td>
+<td class=3D"confluenceTd">
+<p>This is to help with the navigate and usability of a subject area</p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Presentation Table names within each Subject Area must not begin with "D=
+im =E2=80=93 " or "Fact =E2=80=93" or "Fact Compound =E2=80=93". So remove =
+these prefixes if they are present after creating the Subject Area by dragg=
+ing Logical Tables directly from the Business Model</p></td>
+<td class=3D"confluenceTd">
+<p>End users should not be exposes to database-related objects.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>4</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The Presentation Table containing facts should be listed right at the bo=
+ttom, and the Presentation Table should be called "Measures"</p></td>
+<td class=3D"confluenceTd">
+<p>This is to help with the navigate and usability of a subject area</p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>5</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every Subject Area should have a corresponding role defined in the RPD&n=
+bsp;=E2=86=92 (Tools =E2=86=92 Identity) and access to that SA should <stro=
+ng>only</strong> be via that role (SA access is then handled by role mappin=
+g &amp; hierarchy within EM). This way a 'deny-by-default' approach is achi=
+eved.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Any secured columns (e.g access control) will show the padlock icon to d=
+emonstrate that a security rule is in place</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h1 id=3D"OADevelopmentStandards-PresentationCatalog"><strong>Presentation =
+Catalog</strong></h1>
+<h2 id=3D"OADevelopmentStandards-Reports">Reports</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"1a40addc-1382-4075-8e9f-3ff7702d11c2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The names of objects in the catalogue should be unique across the whole =
+webcat instance</p></td>
+<td class=3D"confluenceTd">
+<p>This makes a given object easier to find.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Object names should be concise and in the majority of cases be used as t=
+he display title within each report (Default option). Use the following nam=
+ing conventions (minus the single quotation mark)&nbsp;to automatically gro=
+up together similar items within a sorted folder:-</p>
+<p><strong>PROMPT</strong> names should begin with 'Prompt_'</p>
+<p><strong>PRESENTATION VARIABLES</strong> should begin with 'PV_'</p>
+<p><strong>FILTER</strong> names should be with 'Filter_'</p>
+<p><strong>FOLDER&nbsp;NAMES</strong>&nbsp;should be relevant to the projec=
+t and aligned with Security Access, typically by Department / User Function=
+</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ensure that all users have their local settings set to English - United =
+Kingdom (where applicable!) and if using Internet Explorer ensure Enterpris=
+e Mode is toggled off</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>4</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Always populate the default 'No Results View' by editing the properties =
+of the default compound view to include the following:-</p>
+<p>The Header should contain the title of the report.</p>
+<p>The Text box should contain:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;b&gt=
+;*** No data was returned for the selections you made. ***&lt;/b&gt;
+&lt;style
+type=3D=E2=80=9Dtext/css=E2=80=9D&gt;
+td.ResultLinksCell {
+display:none;
+}
+&lt;/style&gt;</pre>
+</div>
+</div>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>5</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Limit the size of dashboard reports to a consistent size to ensure they =
+fit into dashboards, currently: 400 x 275. The chart zooming feature can be=
+ used if required but should be avoided since the aim of the dashboards is =
+to present results =E2=80=98at a glance=E2=80=99 without having to perform =
+extensive navigation.&nbsp; NO HORIZONTAL SCROLLING.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use conditional formatting to highlight extreme/out of normal range valu=
+es. when applicable</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>7</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Unless inappropriate or otherwise specified, allow the standard drill-do=
+wn features. In dashboard sections switch on Drill-in-place</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>8</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Switch drill off when no drilling is required</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>9</strong></p></td>
+<td class=3D"confluenceTd">
+<p>When building reports always begin your design by filtering the data to =
+ensure you do not affect server performance, especially in the production s=
+ystem. Typically restrict the data to one week=E2=80=99s-worth initially, t=
+hen once you have your layout where you want it increase the time period</p=
+></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>10</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Report Prompts have improved over the 10g version, but are still not ide=
+al. This is because once the selection has been made in a Report Prompt, th=
+e prompt and its values disappear and are replaced by the report. Where pos=
+sible use Dashboard Prompts instead of Report Prompts</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>11</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use presentation variables in preference to =E2=80=98Is Prompted=E2=80=
+=99 to apply dashboard prompts. This is because =E2=80=98Is Prompted=E2=80=
+=99 will only apply correctly if the table_name.column_name in the dashboar=
+d prompt match those in report. In many cases we are prompting for a date f=
+rom one table but using it across different date tables within the reports =
+across the dashboard page</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>12</strong></p></td>
+<td class=3D"confluenceTd">
+<p>When using presentation variables in filters always include a default va=
+lue. This ensures that when developing the reports and running them outside=
+ of a dashboard, that they do not affect server performance. The defaults w=
+ill be overwritten with the dashboard prompt defaults once the report is pl=
+aced on a dashboard. The same defaults need to be applied if the presentati=
+on variables are used in column logic. To ensure the correct data type of d=
+ate presentation variables use the additional type syntax: @{pv_date}{date =
+=E2=80=982011-03-30=E2=80=99}. Note that the format of the date here must b=
+e YYYY-MM-DD</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>13</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Apply saved filters instead of expanding filter content within reports f=
+or ease of maintenance should the filter subsequently change</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"OADevelopmentStandards-Dashboards">Dashboards</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"2b0c8b6f-10eb-4f78-a3d9-e992bb326228" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The number of different dashboard prompts should be kept down to an abso=
+lute minimum. Each prompt should also contain the minimum number of element=
+s</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Try to ensure that where possible the columns across the prompts are in =
+the same order</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use the =E2=80=98Limit By=E2=80=99 feature where two or more elements on=
+ the prompt are related</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>4</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Prompts should include a default values where possible to ensure that th=
+e reports on the page bring back the minimum amount of data when first open=
+ed</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>5</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The =E2=80=98All Choices=E2=80=99, option should be used where possible<=
+/p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>6</strong></p></td>
+<td class=3D"confluenceTd">
+<p>All prompts should have a scope of =E2=80=98Dashboard=E2=80=99 unless th=
+ere is a very good reason against. Users will be expecting their selected p=
+rompt values to persist across the pages of their dashboard</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"OADevelopmentStandards-Style">Style</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"5536c26c-0229-4ea9-a796-6222440d85a5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use the standard OBIEE out-of-the-box colours</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Allow OBIEE to automatically assign colours to charts. The only exceptio=
+n to this would be where there are small set of known fixed dimensional val=
+ues, where it would be more consistent to fix the colours</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Where possible conditional formatting should stick to the three colours:=
+ Red, Amber and Green. Where Red signifies a problem and Green signifies ac=
+ceptable results</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"OADevelopmentStandards-Graphs">Graphs</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"c9ae664a-97a8-46e2-981c-af0851931563" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use 2D cylindrical Bar graphs as the default style for graphs</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use Line-Bar graphs to display two dimensions where the two sets of valu=
+es are an order of magnitude different</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Try to ensure that there are no more than 10 different colours on stacke=
+d bar graphs. Too many colours can result in a =E2=80=98tramps jumper=E2=80=
+=99 effect and make the graphs unreadable. Use higher level groupings of di=
+mension data where possible and rely on drill-down to show the detail</p></=
+td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"OADevelopmentStandards-Performance">Performance</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"1e109ba9-10f2-4389-816a-5f389b38f369" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 1152.0px;">
+<col style=3D"width: 600.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>#</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Recommendation</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Justification</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>1</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Remove unused&nbsp;objects from the&nbsp;Selected Columns in Criteria ta=
+b</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>2</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ensure the filter is on the right hand side of a condition</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>3</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Try to avoid CASE statements in Columns and Filters</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_106980737.1724843842975--
