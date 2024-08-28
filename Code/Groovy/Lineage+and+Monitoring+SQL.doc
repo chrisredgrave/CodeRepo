@@ -1,0 +1,362 @@
+Date: Wed, 28 Aug 2024 12:06:28 +0000 (UTC)
+Message-ID: <1641905034.27.1724846788997@f3ac2593d9f4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_188998068.1724846788997"
+
+------=_Part_26_188998068.1724846788997
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Lineage and Monitoring SQL</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Lineage and Monitoring SQL</h1>
+    <div class=3D"Section1">
+        <h1 class=3D"auto-cursor-target" id=3D"LineageandMonitoringSQL-Basi=
+cLineage">Basic Lineage</h1>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">  SELECT=
+ m.name mapping_name,
+         mr.qualified_name,
+         mc.name datastore_alias,
+         t.table_name target_table,
+         mdl.cod_mod model_code
+    FROM snp_mapping m
+         INNER JOIN snp_map_comp mc
+            ON m.i_mapping =3D mc.i_owner_mapping
+         INNER JOIN snp_map_cp cp
+            ON mc.i_map_comp =3D cp.i_owner_map_comp
+         INNER JOIN snp_map_ref mr
+            ON mc.i_map_ref =3D mr.i_map_ref
+         INNER JOIN snp_table t
+            ON mr.i_ref_id =3D t.i_table
+         INNER JOIN snp_model mdl
+            ON t.i_mod =3D mdl.i_mod
+   WHERE     cp.direction =3D 'O'
+         AND                                         --output connection po=
+int
+            cp.i_map_cp NOT IN (SELECT i_start_map_cp FROM snp_map_conn) --=
+not a starting connection point
+ORDER BY 1=09</pre>
+</div>
+</div>
+<h1 id=3D"LineageandMonitoringSQL-LoadPlanHighLevelInfo">Load Plan High Lev=
+el Info</h1>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT S=
+LI.I_LP_INST AS "Load Plan Instance #"
+     , SLR.NB_RUN AS "Load Plan Run #"
+     , SLI.LOAD_PLAN_NAME AS "Load Plan Name"
+     , SLR.CONTEXT_CODE AS "Source System"
+     , SLR.STATUS AS "Load Plan Status"
+     , SLR.RETURN_CODE AS "error code"
+     , CASE WHEN SLR.END_DATE IS NULL=20
+            THEN TRUNC(ROUND((NVL(SLR.END_DATE , SYSDATE) - SLR.START_DATE)=
+*86400) / 3600) || ':' ||=20
+                 LPAD(TRUNC(MOD(ROUND((NVL(SLR.END_DATE , SYSDATE) - SLR.ST=
+ART_DATE)*86400), 3600) / 60), 2, 0) || ':' ||=20
+                 LPAD(MOD(ROUND((NVL(SLR.END_DATE , SYSDATE) - SLR.START_DA=
+TE)*86400), 60), 2, 0)
+            ELSE TRUNC(SLR.DURATION / 3600) || ':' || LPAD(TRUNC(MOD(SLR.DU=
+RATION, 3600) / 60), 2, 0) || ':' || LPAD(MOD(SLR.DURATION, 60), 2, 0)=20
+       END AS "Load Time"
+     , SLR.START_DATE
+     , SLR.END_DATE
+     , substr(to_char(SLR.START_DATE,'mm/dd/yy:hh24'),1,11) start_date_hour
+  FROM SNP_LP_INST SLI
+  JOIN SNP_LPI_RUN SLR ON SLI.I_LP_INST =3D SLR.I_LP_INST</pre>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"LineageandMonitoringSQL-DetailedLoadPlanInformation">Detailed Loa=
+d Plan Information</h1>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">SELECT S=
+LI.Load_plan_name AS "Load Plan Name",
+         SUBSTR (SLR.CONTEXT_CODE, 9, 5) AS "Source System",
+         SLS.LP_STEP_NAME AS "Target Table",
+         SLS.scen_name AS "scenario name",
+            TRUNC (SUM (SSTL.TASK_DUR) / 3600)
+         || ':'
+         || LPAD (TRUNC (MOD (SUM (SSTL.TASK_DUR), 3600) / 60), 2, 0)
+         || ':'
+         || LPAD (MOD (SUM (SSTL.TASK_DUR), 60), 2, 0)
+            AS "Load Time",
+         SST.SESS_NO AS "Session Number",
+         SLSL.start_date AS "Start Time",
+         SLSL.End_date AS "End Time",
+         SUM (sstl.nb_ins) AS "Rows Inserted",
+         SUM (sstl.nb_upd) AS "Rows Updated",
+         SUM (sstl.nb_del) AS "Rows Deleted",
+         SUM (sstl.nb_err) AS "Rows Errors",
+         SUM (sstl.nb_row) AS "Rows Processed",
+         CASE
+            WHEN (SUM (sstl.nb_ins) + SUM (sstl.nb_upd)) &gt; 0
+            THEN
+               TRUNC (
+                  SUM (sstl.task_dur) / (SUM (sstl.nb_ins) + SUM (sstl.nb_u=
+pd)),
+                  4)
+            ELSE
+               0
+         END
+            AS "Throughput"
+    FROM SNP_LP_INST SLI
+         JOIN SNP_LPI_STEP SLS
+            ON SLI.I_LP_INST =3D SLS.I_LP_INST
+         JOIN SNP_LPI_STEP_LOG SLSL
+            ON     SLS.I_LP_STEP =3D SLSL.I_LP_STEP
+               AND SLS.I_LP_INST =3D SLSL.I_LP_INST
+         JOIN SNP_SESS_TASK SST
+            ON SST.SESS_NO =3D SLSL.SESS_NO
+         JOIN SNP_SESS_TASK_LOG SSTL
+            ON     SSTL.SCEN_TASK_NO =3D SST.SCEN_TASK_NO
+               AND SST.SESS_NO =3D SSTL.SESS_NO
+         JOIN SNP_LPI_RUN SLR
+            ON SLI.I_LP_INST =3D SLR.I_LP_INST
+   WHERE (1 =3D 1)
+         AND SLS.LP_STEP_TYPE =3D 'RS'
+GROUP BY SUBSTR (SLR.CONTEXT_CODE, 9, 5),
+         SLSL.start_date,
+         SLSL.end_date,
+         SLI.load_plan_name,
+         SLS.scen_name,
+         SLS.LP_STEP_NAME,
+         SST.SESS_NO
+ORDER BY 7 desc</pre>
+</div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_26_188998068.1724846788997--
