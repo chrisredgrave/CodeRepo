@@ -40,8 +40,7 @@ models:
       +schema: dbt_reporting 
       
 seeds:
-  dbt_orcl:
-    
+  dbt_orcl:   
     games_may2024_full_utf8_pipe:
       +delimiter: "|"
     NVidiaStockData:
